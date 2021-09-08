@@ -57,6 +57,14 @@ function initMap() {
     });
 
     new google.maps.Marker({
+      position:  { lat: 23.423272075003478, lng: 85.43279611655181 },
+      map:map,
+      title : "Techno Soft",
+      animation: google.maps.Animation.BOUNCE,
+    });
+    
+
+    new google.maps.Marker({
       position:  { lat: 23.417778976478935, lng: 85.43411250687647 },
       map:map,
       title : "PAHAN",
